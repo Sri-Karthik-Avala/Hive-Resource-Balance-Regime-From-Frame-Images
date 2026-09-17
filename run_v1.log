@@ -1,0 +1,102 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+device cuda cpu 16 train 979 test 245
+loaded images 2.4480416774749756
+groups 13 fold sizes [210 188 269 212 100]
+weights: torchvision-imagenet
+fold 0 epoch_time 4.6 n_epochs 16
+  f 0 ep 0 loss 1.1233 t 34
+  f 0 ep 1 loss 0.9914 t 38
+  f 0 ep 2 loss 0.8646 t 42
+  f 0 ep 3 loss 0.7935 t 46
+  f 0 ep 4 loss 0.7867 t 50
+  f 0 ep 5 loss 0.6648 t 54
+  f 0 ep 6 loss 0.6319 t 59
+  f 0 ep 7 loss 0.5136 t 63
+  f 0 ep 8 loss 0.515 t 67
+  f 0 ep 9 loss 0.4986 t 71
+  f 0 ep 10 loss 0.4377 t 75
+  f 0 ep 11 loss 0.4037 t 79
+  f 0 ep 12 loss 0.3978 t 83
+  f 0 ep 13 loss 0.3899 t 87
+  f 0 ep 14 loss 0.3775 t 93
+  f 0 ep 15 loss 0.3744 t 99
+FOLD 0 cwm 0.6011 elapsed 99
+fold 1 epoch_time 4.2 n_epochs 16
+  f 1 ep 0 loss 1.1247 t 104
+  f 1 ep 1 loss 0.9542 t 108
+  f 1 ep 2 loss 0.9064 t 113
+  f 1 ep 3 loss 0.7974 t 117
+  f 1 ep 4 loss 0.7572 t 121
+  f 1 ep 5 loss 0.6768 t 125
+  f 1 ep 6 loss 0.6021 t 130
+  f 1 ep 7 loss 0.549 t 135
+  f 1 ep 8 loss 0.5911 t 139
+  f 1 ep 9 loss 0.4687 t 144
+  f 1 ep 10 loss 0.4518 t 148
+  f 1 ep 11 loss 0.4169 t 153
+  f 1 ep 12 loss 0.3813 t 158
+  f 1 ep 13 loss 0.3863 t 162
+  f 1 ep 14 loss 0.3859 t 169
+  f 1 ep 15 loss 0.3841 t 175
+FOLD 1 cwm 0.5585 elapsed 175
+fold 2 epoch_time 4.2 n_epochs 16
+  f 2 ep 0 loss 1.1398 t 180
+  f 2 ep 1 loss 0.939 t 184
+  f 2 ep 2 loss 0.841 t 189
+  f 2 ep 3 loss 0.7625 t 193
+  f 2 ep 4 loss 0.7316 t 197
+  f 2 ep 5 loss 0.6599 t 202
+  f 2 ep 6 loss 0.6282 t 206
+  f 2 ep 7 loss 0.5596 t 210
+  f 2 ep 8 loss 0.525 t 215
+  f 2 ep 9 loss 0.4878 t 217
+  f 2 ep 10 loss 0.4738 t 218
+  f 2 ep 11 loss 0.4148 t 220
+  f 2 ep 12 loss 0.4132 t 222
+  f 2 ep 13 loss 0.3786 t 224
+  f 2 ep 14 loss 0.3772 t 226
+  f 2 ep 15 loss 0.3766 t 229
+FOLD 2 cwm 0.4648 elapsed 229
+fold 3 epoch_time 1.7 n_epochs 16
+  f 3 ep 0 loss 1.1649 t 231
+  f 3 ep 1 loss 0.9663 t 233
+  f 3 ep 2 loss 0.9057 t 235
+  f 3 ep 3 loss 0.851 t 236
+  f 3 ep 4 loss 0.7169 t 238
+  f 3 ep 5 loss 0.677 t 240
+  f 3 ep 6 loss 0.6697 t 242
+  f 3 ep 7 loss 0.583 t 244
+  f 3 ep 8 loss 0.535 t 246
+  f 3 ep 9 loss 0.4886 t 247
+  f 3 ep 10 loss 0.4787 t 249
+  f 3 ep 11 loss 0.445 t 251
+  f 3 ep 12 loss 0.4025 t 253
+  f 3 ep 13 loss 0.4032 t 255
+  f 3 ep 14 loss 0.3992 t 257
+  f 3 ep 15 loss 0.3885 t 260
+FOLD 3 cwm 0.5653 elapsed 260
+fold 4 epoch_time 2.2 n_epochs 16
+  f 4 ep 0 loss 1.1977 t 262
+  f 4 ep 1 loss 1.0339 t 265
+  f 4 ep 2 loss 0.9263 t 267
+  f 4 ep 3 loss 0.807 t 269
+  f 4 ep 4 loss 0.759 t 271
+  f 4 ep 5 loss 0.6968 t 273
+  f 4 ep 6 loss 0.6321 t 275
+  f 4 ep 7 loss 0.6004 t 277
+  f 4 ep 8 loss 0.5314 t 279
+  f 4 ep 9 loss 0.5055 t 282
+  f 4 ep 10 loss 0.4554 t 284
+  f 4 ep 11 loss 0.4269 t 286
+  f 4 ep 12 loss 0.4277 t 288
+  f 4 ep 13 loss 0.3859 t 290
+  f 4 ep 14 loss 0.3957 t 295
+  f 4 ep 15 loss 0.3692 t 302
+FOLD 4 cwm 0.6711 elapsed 302
+OOF plain 0.6024 tuned 0.6024 cvgain 0.0 off [0. 0. 0. 0.]
+confusion
+ [[223  35  43  23]
+ [ 43 240  26  47]
+ [ 70  36  34  20]
+ [ 14   5   5 115]]
+wrote C:\Users\srika\Downloads\eris_hive\working\submission.csv folds 5 elapsed 305

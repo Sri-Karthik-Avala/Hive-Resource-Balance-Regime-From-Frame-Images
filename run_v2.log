@@ -1,0 +1,133 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+device cuda cpu 16 train 979 test 245
+loaded images 1.8621621131896973
+groups 13 fold sizes [210 188 269 212 100]
+weights: torchvision-imagenet
+epoch_time 4.7 folds_eff 5
+fold 0 epoch_time 4.7 n_epochs 22
+  f 0 ep 0 loss 2.9081 t 30
+  f 0 ep 1 loss 2.3735 t 34
+  f 0 ep 2 loss 2.1354 t 37
+  f 0 ep 3 loss 2.0259 t 41
+  f 0 ep 4 loss 1.9671 t 45
+  f 0 ep 5 loss 1.8876 t 50
+  f 0 ep 6 loss 1.678 t 53
+  f 0 ep 7 loss 1.4607 t 57
+  f 0 ep 8 loss 1.4718 t 62
+  f 0 ep 9 loss 1.4771 t 67
+  f 0 ep 10 loss 1.3324 t 72
+  f 0 ep 11 loss 1.2859 t 76
+  f 0 ep 12 loss 1.2107 t 81
+  f 0 ep 13 loss 1.0831 t 86
+  f 0 ep 14 loss 1.0324 t 91
+  f 0 ep 15 loss 1.0339 t 96
+  f 0 ep 16 loss 0.9785 t 101
+  f 0 ep 17 loss 0.9188 t 106
+  f 0 ep 18 loss 0.9347 t 111
+  f 0 ep 19 loss 0.9613 t 116
+  f 0 ep 20 loss 0.9415 t 126
+  f 0 ep 21 loss 0.9163 t 136
+FOLD 0 cwm 0.6363 elapsed 136
+fold 1 epoch_time 5.2 n_epochs 22
+  f 1 ep 0 loss 2.7617 t 141
+  f 1 ep 1 loss 2.3218 t 146
+  f 1 ep 2 loss 2.1718 t 152
+  f 1 ep 3 loss 1.9653 t 156
+  f 1 ep 4 loss 1.8642 t 162
+  f 1 ep 5 loss 1.8532 t 167
+  f 1 ep 6 loss 1.562 t 172
+  f 1 ep 7 loss 1.5618 t 177
+  f 1 ep 8 loss 1.6161 t 182
+  f 1 ep 9 loss 1.3623 t 187
+  f 1 ep 10 loss 1.3651 t 193
+  f 1 ep 11 loss 1.2594 t 198
+  f 1 ep 12 loss 1.2099 t 203
+  f 1 ep 13 loss 1.144 t 207
+  f 1 ep 14 loss 1.0667 t 213
+  f 1 ep 15 loss 1.0773 t 218
+  f 1 ep 16 loss 0.9676 t 224
+  f 1 ep 17 loss 0.9278 t 229
+  f 1 ep 18 loss 0.9638 t 234
+  f 1 ep 19 loss 0.9491 t 240
+  f 1 ep 20 loss 0.9674 t 250
+  f 1 ep 21 loss 0.9194 t 259
+FOLD 1 cwm 0.5897 elapsed 259
+fold 2 epoch_time 5.1 n_epochs 22
+  f 2 ep 0 loss 2.7696 t 265
+  f 2 ep 1 loss 2.3091 t 270
+  f 2 ep 2 loss 2.0743 t 275
+  f 2 ep 3 loss 1.9309 t 280
+  f 2 ep 4 loss 1.747 t 285
+  f 2 ep 5 loss 1.6604 t 290
+  f 2 ep 6 loss 1.5769 t 295
+  f 2 ep 7 loss 1.4784 t 300
+  f 2 ep 8 loss 1.4644 t 305
+  f 2 ep 9 loss 1.4166 t 310
+  f 2 ep 10 loss 1.403 t 312
+  f 2 ep 11 loss 1.3134 t 314
+  f 2 ep 12 loss 1.2739 t 316
+  f 2 ep 13 loss 1.0116 t 318
+  f 2 ep 14 loss 1.0638 t 320
+  f 2 ep 15 loss 1.0482 t 321
+  f 2 ep 16 loss 0.9535 t 323
+  f 2 ep 17 loss 0.9746 t 325
+  f 2 ep 18 loss 1.0087 t 327
+  f 2 ep 19 loss 0.9436 t 329
+  f 2 ep 20 loss 0.917 t 333
+  f 2 ep 21 loss 0.9048 t 337
+FOLD 2 cwm 0.4705 elapsed 337
+fold 3 epoch_time 2.0 n_epochs 22
+  f 3 ep 0 loss 2.8114 t 339
+  f 3 ep 1 loss 2.3631 t 341
+  f 3 ep 2 loss 2.2023 t 343
+  f 3 ep 3 loss 1.9973 t 345
+  f 3 ep 4 loss 1.8845 t 347
+  f 3 ep 5 loss 1.724 t 349
+  f 3 ep 6 loss 1.7466 t 351
+  f 3 ep 7 loss 1.6042 t 353
+  f 3 ep 8 loss 1.5731 t 355
+  f 3 ep 9 loss 1.4854 t 357
+  f 3 ep 10 loss 1.341 t 359
+  f 3 ep 11 loss 1.3236 t 361
+  f 3 ep 12 loss 1.202 t 363
+  f 3 ep 13 loss 1.1014 t 365
+  f 3 ep 14 loss 1.1327 t 367
+  f 3 ep 15 loss 1.0235 t 369
+  f 3 ep 16 loss 1.0146 t 371
+  f 3 ep 17 loss 0.932 t 373
+  f 3 ep 18 loss 0.9592 t 375
+  f 3 ep 19 loss 0.9171 t 377
+  f 3 ep 20 loss 0.8815 t 380
+  f 3 ep 21 loss 0.8867 t 384
+FOLD 3 cwm 0.6303 elapsed 384
+fold 4 epoch_time 2.3 n_epochs 22
+  f 4 ep 0 loss 2.8486 t 387
+  f 4 ep 1 loss 2.3934 t 389
+  f 4 ep 2 loss 2.1645 t 391
+  f 4 ep 3 loss 2.0463 t 394
+  f 4 ep 4 loss 1.8776 t 396
+  f 4 ep 5 loss 1.8911 t 398
+  f 4 ep 6 loss 1.7672 t 401
+  f 4 ep 7 loss 1.6086 t 403
+  f 4 ep 8 loss 1.5764 t 405
+  f 4 ep 9 loss 1.5179 t 407
+  f 4 ep 10 loss 1.4766 t 410
+  f 4 ep 11 loss 1.3511 t 412
+  f 4 ep 12 loss 1.2828 t 414
+  f 4 ep 13 loss 1.2175 t 417
+  f 4 ep 14 loss 1.1141 t 419
+  f 4 ep 15 loss 1.1291 t 421
+  f 4 ep 16 loss 1.0647 t 424
+  f 4 ep 17 loss 1.0348 t 426
+  f 4 ep 18 loss 1.0151 t 428
+  f 4 ep 19 loss 0.9907 t 431
+  f 4 ep 20 loss 0.9557 t 434
+  f 4 ep 21 loss 0.9837 t 438
+FOLD 4 cwm 0.5951 elapsed 438
+OOF plain 0.6301 tuned 0.6596 cvgain 0.005 off [1.14 0.66 0.18 0.  ]
+confusion
+ [[259  24  36   5]
+ [ 54 265  19  18]
+ [ 75  36  41   8]
+ [ 18  10   8 103]]
+wrote C:\Users\srika\Downloads\eris_hive\working\submission.csv folds 5 elapsed 440
